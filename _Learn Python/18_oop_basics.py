@@ -27,7 +27,7 @@ person1 = Person("John", 25)
 person2 = Person("Max", 22)
 
 # Calling the greet method
-person1.greet()  # Output: Hello, my name is Aman and I am 25 years old.
+person1.greet()  # Output: Hello, my name is Oliver and I am 25 years old.
 person2.greet()  # Output: Hello, my name is Kiran and I am 22 years old.
 
 # 🧠 Explanation:

@@ -10,7 +10,7 @@ def greet(name):
     print("Hello,", name + "!")  # Prints a greeting message
 
 # Calling the function with an argument
-greet("Aman")  # Output: Hello, Aman!
+greet("Oliver")  # Output: Hello, Oliver!
 
 def add_numbers(a, b):
     return a + b  # Returns the sum of a and b

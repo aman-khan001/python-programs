@@ -3,7 +3,7 @@
 
 # Creating a dictionary of student details
 student = {
-    "name": "Aman",
+    "name": "Oliver",
     "age": 21,
     "course": "Python"
 }
@@ -12,7 +12,7 @@ student = {
 print("Student Info:", student)
 
 # Accessing values by keys
-print("Name:", student["name"])      # Output: Aman
+print("Name:", student["name"])      # Output: Oliver
 print("Age:", student["age"])        # Output: 21
 
 # Adding a new key-value pair
@@ -39,7 +39,7 @@ else:
     print("Name does not exist in the dictionary.")
 # Getting all keys and values
 print("Keys:", student.keys())        # Output: dict_keys(['name', 'age', 'grade'])
-print("Values:", student.values())    # Output: dict_values(['Aman', 22, 'A'])
+print("Values:", student.values())    # Output: dict_values(['Oliver', 22, 'A'])
 
 # Getting the length of the dictionary
 print("Number of items in dictionary:", len(student))  # Output: 3
@@ -47,7 +47,7 @@ print("Number of items in dictionary:", len(student))  # Output: 3
 # Nested dictionaries - Dictionaries can contain other dictionaries
 nested_student = {
     "student1": {
-        "name": "Aman",
+        "name": "Oliver",
         "age": 21
     },
     "student2": {
@@ -57,24 +57,24 @@ nested_student = {
 }
 print("Nested Student Info:", nested_student)
 # Accessing nested dictionary values
-print("Student1 Name:", nested_student["student1"]["name"])  # Output: Aman
+print("Student1 Name:", nested_student["student1"]["name"])  # Output: Oliver
 print("Student2 Age:", nested_student["student2"]["age"])    # Output: 22
 # Using dictionaries in functions - Passing a dictionary to a function
 def print_student_info(student_dict):
     for key, value in student_dict.items():
         print(key + ":", value)
 # Calling the function with the student dictionary
-print_student_info(student)  # Output: Name: Aman, Age: 22, Grade: A
+print_student_info(student)  # Output: Name: Oliver, Age: 22, Grade: A
 # Using dictionaries in lists - Lists can contain dictionaries
 students_list = [
-    {"name": "Aman", "age": 21},
+    {"name": "Oliver", "age": 21},
     {"name": "Riya", "age": 22}
 ]
 print("Students List:")
 
 for student in students_list:
     print("Name:", student["name"], ", Age:", student["age"])
-# Output: Name: Aman , Age: 21
+# Output: Name: Oliver , Age: 21
 # Output: Name: Riya , Age: 22
     
 # Using dictionaries as keys in other dictionaries
@@ -100,22 +100,22 @@ merged_dict = {**dict1, **dict2}
 print("Merged Dictionary:", merged_dict)  # Output: {'a': 1, 'b': 3, 'c': 4}
 
 # Using the get method to access values safely
-print("Get Name:", student.get("name", "Not Found"))  # Output: Aman
+print("Get Name:", student.get("name", "Not Found"))  # Output: Oliver
 print("Get Course:", student.get("course", "Not Found"))  # Output: Not Found
 
 # Using the setdefault method to set a default value if the key does not exist
 student.setdefault("hobby", "Reading")
-print("After setdefault hobby:", student)  # Output: {'name': 'Aman', 'age': 22, 'grade': 'A', 'hobby': 'Reading'}
+print("After setdefault hobby:", student)  # Output: {'name': 'Oliver', 'age': 22, 'grade': 'A', 'hobby': 'Reading'}
 
 # Using the pop method to remove a key-value pair and return the value
 removed_value = student.pop("grade", "Not Found")
 print("Removed Grade:", removed_value)  # Output: A
-print("After popping grade:", student)  # Output: {'name': 'Aman', 'age': 22, 'hobby': 'Reading'}
+print("After popping grade:", student)  # Output: {'name': 'Oliver', 'age': 22, 'hobby': 'Reading'}
 
 # Using the popitem method to remove and return the last inserted key-value pair
 last_item = student.popitem()
 print("Last Item Removed:", last_item)  # Output: ('hobby', 'Reading')
-print("After popping last item:", student)  # Output: {'name': 'Aman', 'age': 22}
+print("After popping last item:", student)  # Output: {'name': 'Oliver', 'age': 22}
 
 # Using the clear method to remove all items from the dictionary
 student.clear()
@@ -146,23 +146,23 @@ copied_student = default_student.copy()
 print("Copied Student Dictionary:", copied_student)  # Output: {'name': 'Riya', 'age': 22, 'course': 'Unknown'}
 
 # Using the dictionary constructor to create a dictionary from a list of tuples
-tuple_list = [("name", "Aman"), ("age", 21), ("course", "Python")]
+tuple_list = [("name", "Oliver"), ("age", 21), ("course", "Python")]
 constructed_student = dict(tuple_list)
-print("Constructed Student Dictionary:", constructed_student)  # Output: {'name': 'Aman', 'age': 21, 'course': 'Python'}
+print("Constructed Student Dictionary:", constructed_student)  # Output: {'name': 'Oliver', 'age': 21, 'course': 'Python'}
 # Using the dictionary constructor with keyword arguments
-constructed_student_kw = dict(name="Aman", age=21, course="Python")
-print("Constructed Student Dictionary with kwargs:", constructed_student_kw)  # Output: {'name': 'Aman', 'age': 21, 'course': 'Python'}
+constructed_student_kw = dict(name="Oliver", age=21, course="Python")
+print("Constructed Student Dictionary with kwargs:", constructed_student_kw)  # Output: {'name': 'Oliver', 'age': 21, 'course': 'Python'}
 # Using the zip function to create a dictionary from two lists
 keys_list = ["name", "age", "course"]
-values_list = ["Aman", 21, "Python"]
+values_list = ["Oliver", 21, "Python"]
 zipped_student = dict(zip(keys_list, values_list))
-print("Zipped Student Dictionary:", zipped_student)  # Output: {'name': 'Aman', 'age': 21, 'course': 'Python'}
+print("Zipped Student Dictionary:", zipped_student)  # Output: {'name': 'Oliver', 'age': 21, 'course': 'Python'}
 # Using the defaultdict from collections module for default values
 from collections import defaultdict
 default_student_dict = defaultdict(lambda: "Unknown")
-default_student_dict["name"] = "Aman"
+default_student_dict["name"] = "Oliver"
 default_student_dict["age"] = 21
-print("Defaultdict Student Dictionary:", default_student_dict)  # Output: defaultdict(<function <lambda> at ...>, {'name': 'Aman', 'age': 21, 'course': 'Unknown'})
+print("Defaultdict Student Dictionary:", default_student_dict)  # Output: defaultdict(<function <lambda> at ...>, {'name': 'Oliver', 'age': 21, 'course': 'Unknown'})
 # Using the Counter from collections module to count occurrences of items 
 from collections import Counter
 # Counting occurrences of characters in a string
@@ -196,10 +196,10 @@ print("First item in OrderedDict:", next(iter(ordered_dict.items())))  # Output:
 from collections import namedtuple
 # Creating a named tuple for a student
 Student = namedtuple("Student", ["name", "age", "course"])
-student_named = Student(name="Aman", age=21, course="Python")
-print("Named Tuple Student:", student_named)  # Output: Student(name='Aman', age=21, course='Python')
+student_named = Student(name="Oliver", age=21, course="Python")
+print("Named Tuple Student:", student_named)  # Output: Student(name='Oliver', age=21, course='Python')
 # Accessing fields in named tuple
-print("Student Name:", student_named.name)  # Output: Aman
+print("Student Name:", student_named.name)  # Output: Oliver
 print("Student Age:", student_named.age)    # Output: 21
 print("Student Course:", student_named.course)  # Output: Python
 # Using the dataclass decorator for creating classes with automatic methods
@@ -210,10 +210,10 @@ class StudentData:
     age: int
     course: str
 # Creating an instance of the dataclass
-student_data = StudentData(name="Aman", age=21, course="Python")
-print("Dataclass Student:", student_data)  # Output: StudentData(name='Aman', age=21, course='Python')
+student_data = StudentData(name="Oliver", age=21, course="Python")
+print("Dataclass Student:", student_data)  # Output: StudentData(name='Oliver', age=21, course='Python')
 # Accessing fields in dataclass
-print("Dataclass Student Name:", student_data.name)  # Output: Aman
+print("Dataclass Student Name:", student_data.name)  # Output: Oliver
 print("Dataclass Student Age:", student_data.age)    # Output: 21
 print("Dataclass Student Course:", student_data.course)  # Output: Python
 # Using the freeze option in dataclass for immutability
@@ -223,8 +223,8 @@ class FrozenStudentData:
     age: int
     course: str
 # Creating an instance of the frozen dataclass
-frozen_student_data = FrozenStudentData(name="Aman", age=21, course="Python")
-print("Frozen Dataclass Student:", frozen_student_data)  # Output: FrozenStudentData(name='Aman', age=21, course='Python')
+frozen_student_data = FrozenStudentData(name="Oliver", age=21, course="Python")
+print("Frozen Dataclass Student:", frozen_student_data)  # Output: FrozenStudentData(name='Oliver', age=21, course='Python')
 # Accessing fields in frozen dataclass
-print("Frozen Dataclass Student Name:", frozen_student_data.name)  # Output: Aman
+print("Frozen Dataclass Student Name:", frozen_student_data.name)  # Output: Oliver
 
