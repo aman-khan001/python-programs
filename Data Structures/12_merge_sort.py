@@ -1,5 +1,5 @@
-# 📘 Program: Merge Sort Algorithm
-# This program demonstrates how to sort a list using the merge sort algorithm
+# 📚 Python Program to Merge Sort Algorithm
+
 
 '''
   Merge sort is a divide-and-conquer algorithm that splits the list into halves, sorts each half, and then merges them back together in sorted order.
@@ -20,9 +20,12 @@ def merge_sort(arr):
         i = j = k = 0
 
         while i < len(left_half) and j < len(right_half):
+            # Compare elements from both halves and merge them in sorted order
             if left_half[i] < right_half[j]:
+                # If left element is smaller, add it to the merged array
                 arr[k] = left_half[i]
                 i += 1
+            # If right element is smaller or equal, add it to the merged array
             else:
                 arr[k] = right_half[j]
                 j += 1
@@ -34,6 +37,7 @@ def merge_sort(arr):
             i += 1
             k += 1
 
+        # If there are leftover elements in the right half
         while j < len(right_half):
             arr[k] = right_half[j]
             j += 1

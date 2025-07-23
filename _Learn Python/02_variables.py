@@ -1,5 +1,5 @@
-# 🐣 Program: Variables in Python
-# This program demonstrates how to declare and use variables in Python
+# 🐣 Variables: Variables in Python
+
 
 '''
   Variables are the container, used to store data values.

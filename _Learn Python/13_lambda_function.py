@@ -1,5 +1,5 @@
-# 📘 Program: Lambda Functions in Python
-# This program demonstrates how to use lambda (anonymous) functions
+# 🐥 Program: Lambda Functions in Python
+
 
 '''
   A lambda function is a small anonymous function defined with the lambda keyword.  

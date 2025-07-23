@@ -1,5 +1,5 @@
 # 📚 Python Program: Sum of Prime Numbers
-# This program defines a function to calculate the sum of all prime numbers up to a given positive integer n using a loop.
+
 
 '''
     The sum_of_prime function takes a positive integer n as input and returns the sum of all prime numbers up to n.

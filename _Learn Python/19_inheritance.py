@@ -1,5 +1,4 @@
-# 📘 Program: Inheritance in Python (OOP)
-# This program demonstrates how a child class inherits from a parent class
+# 🐥 Program: Inheritance in Python (OOP)
 
 
 '''

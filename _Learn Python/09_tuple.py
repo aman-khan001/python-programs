@@ -1,5 +1,5 @@
 #  🐥 Program: Working with Tuples
-#  This program demonstrates how to create and use tuples in Python
+
 
 
 '''

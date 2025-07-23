@@ -1,5 +1,4 @@
 # 📚 Python Program to Check Even or Odd
-# This program defines a function to determine if a number is even or odd.
 
 '''
     The even_or_odd function takes a number as input and returns "Even" if the number is even,
@@ -8,6 +7,7 @@
 '''
 
 def even_or_odd(number):
+    # Check if the number is even or odd
     return "Even" if number % 2 == 0 else "Odd"
 
 # Example usage

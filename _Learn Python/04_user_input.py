@@ -1,5 +1,5 @@
 # 🐣 Program: Taking User Input
-# This program shows how to take input from the user and display it back
+
 
 ''' The input() function is used to get input from the user.'''
 

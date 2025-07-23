@@ -1,5 +1,4 @@
-# 📘 Program: Shortest Path in Unweighted Graph using BFS
-# This program finds the shortest path from a source to destination using BFS
+# 📚 Python Program to Shortest Path in Unweighted Graph using BFS
 
 
 '''
@@ -9,19 +8,26 @@
 
 from collections import deque
 
+# Function to find the shortest path using BFS
 def bfs_shortest_path(graph, start, goal):
+    # Initialize visited set and queue
     visited = set()
     queue = deque([[start]])
 
+    # If start is the goal, return immediately
     if start == goal:
         return [start]
 
+    # Loop until the queue is empty
     while queue:
         path = queue.popleft()
         node = path[-1]
 
+        # If the node has not been visited
         if node not in visited:
+            # Visit all neighbors of the current node
             for neighbor in graph.get(node, []):
+                
                 new_path = list(path)
                 new_path.append(neighbor)
                 queue.append(new_path)

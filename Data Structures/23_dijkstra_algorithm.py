@@ -1,5 +1,4 @@
-# 📘 Program: Dijkstra's Algorithm for Shortest Path in Weighted Graph
-# This program finds the shortest distance from a source node to all other nodes using Dijkstra's Algorithm
+# 📚 Python Program to Dijkstra's Algorithm for Shortest Path in Weighted Graph
 
 '''
     Dijkstra's algorithm is used to find the shortest path from a source node to all other nodes in a weighted graph.
@@ -9,18 +8,24 @@
 import heapq
 
 def dijkstra(graph, start):
+    # Initialize distances and priority queue
     distances = {node: float('inf') for node in graph}
     distances[start] = 0
     priority_queue = [(0, start)]
 
+    # Main loop
     while priority_queue:
         current_distance, current_node = heapq.heappop(priority_queue)
 
+        # If the current distance is greater than the recorded distance, skip
         if current_distance > distances[current_node]:
             continue
 
+        # Explore neighbors
         for neighbor, weight in graph[current_node]:
+            # Calculate the distance to the neighbor
             distance = current_distance + weight
+            # If the calculated distance is less than the recorded distance, update it
             if distance < distances[neighbor]:
                 distances[neighbor] = distance
                 heapq.heappush(priority_queue, (distance, neighbor))

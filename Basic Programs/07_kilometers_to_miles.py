@@ -1,5 +1,4 @@
 # 📚 Python Program to Convert Kilometers to Miles
-# This program defines a function to convert kilometers to miles.
 
 '''
     The kilometers_to_miles function takes a distance in kilometers as input

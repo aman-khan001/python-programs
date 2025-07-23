@@ -1,5 +1,5 @@
 # 📚 Python Program: Sum of n Numbers
-# This program defines a function to calculate the sum of all integers from 1 to n (inclusive).
+
   
 '''
       The sum_of_n function takes an integer n as input and returns the sum of all integers from 1 to n (inclusive).

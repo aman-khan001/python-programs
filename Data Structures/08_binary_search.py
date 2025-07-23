@@ -1,5 +1,5 @@
-# 📘 Program: Binary Search Algorithm
-# This program demonstrates how to use binary search on a sorted list
+# 📚 Python Program to Binary Search Algorithm
+
 
 '''
   Binary search is an efficient algorithm for finding an item from a sorted list of items.

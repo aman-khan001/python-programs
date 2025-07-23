@@ -1,5 +1,5 @@
-# 📘 Program: Insertion Sort Algorithm
-# This program demonstrates how to sort a list using insertion sort
+# 📚 Python Program to Insertion Sort Algorithm
+
 
 '''
   Insertion sort is a simple sorting algorithm that builds a sorted array one element at a time.

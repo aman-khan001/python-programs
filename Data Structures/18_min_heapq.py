@@ -1,5 +1,5 @@
-# 📘 Program: Min Heap Using heapq in Python
-# This program demonstrates how to implement a min heap using the heapq module
+# 📚 Python Program to Min Heap Using heapq in Python
+
 
 '''
    A min heap is a complete binary tree where the value of each node is less than or equal to the values of its children.

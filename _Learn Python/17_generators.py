@@ -1,5 +1,5 @@
-# 📘 Program: Using Generators in Python
-# This program demonstrates how to define and use a generator using the yield keyword
+# 🐥 Program: Using Generators in Python
+
 
 '''
   Generators are a special type of iterable that allow you to iterate over a sequence of values without storing them all in memory at once.

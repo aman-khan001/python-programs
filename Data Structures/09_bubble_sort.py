@@ -1,5 +1,5 @@
-# 📘 Program: Bubble Sort Algorithm
-# This program demonstrates how to sort a list using bubble sort
+# 📚 Python Program to Bubble Sort Algorithm
+
 
 '''
   Bubble sort is a simple sorting algorithm that repeatedly steps through the list, 

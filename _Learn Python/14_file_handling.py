@@ -1,5 +1,5 @@
-# 📘 Program: File Handling in Python
-# This program demonstrates how to write to and read from a text file
+# 🐥 Program: File Handling in Python
+
 
 '''
   File handling is the process of reading from and writing to files in a computer's file system.

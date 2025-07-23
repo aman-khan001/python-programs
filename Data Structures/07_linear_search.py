@@ -1,5 +1,5 @@
-# 📘 Program: Linear Search Algorithm
-# This program demonstrates how to search for an element using linear search
+# 📚 Python Program to Linear Search Algorithm
+
 
 '''
   A linear search is a simple algorithm that checks each element in a list sequentially until the target element is found or the end of the list is reached.

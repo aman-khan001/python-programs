@@ -1,5 +1,5 @@
 # 📚 Python Program: Basic ATM simulation
-# This program defines a function to perform ATM actions such as withdrawing, depositing, and checking balance.
+
 
 '''
     The atm_action function takes the current balance and an action as input.
@@ -8,33 +8,34 @@
 '''
 
 def atm_action(balance, action):
-    """
-    Perform an ATM action based on the user's input.
-
-    Parameters:
-    balance (float): The current balance in the account.
-    action (str): The action to perform ('withdraw', 'deposit', 'check_balance').
-
-    Returns:
-    tuple: Updated balance and a message indicating the result of the action.
-    """
+    # Check if the action is to withdraw money
     if action == 'withdraw':
         amount = float(input("Enter amount to withdraw: "))
+        # Check if the withdrawal amount is greater than the current balance
         if amount > balance:
-            return balance, "Insufficient funds."
+
+            return balance, "Insufficient funds." 
+
         else:
             balance -= amount
             return balance, f"Withdrew ${amount}. New balance is ${balance}."
 
+    # Check if the action is to deposit money
     elif action == 'deposit':
+        # Prompt user for the amount to deposit
         amount = float(input("Enter amount to deposit: "))
         balance += amount
+        # Return the updated balance after deposit
         return balance, f"Deposited ${amount}. New balance is ${balance}."
 
+    # Check if the action is to check the balance
     elif action == 'check_balance':
+        # Return the current balance
         return balance, f"Your current balance is ${balance}."
     
+    # If the action is not recognized
     else:
+        # Return the current balance and an error message
         return balance, "Invalid action."
     
 # Example usage

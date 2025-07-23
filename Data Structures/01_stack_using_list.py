@@ -1,5 +1,5 @@
-# 📘 Program: Stack Implementation Using List
-# This program demonstrates how to use a list as a stack with push/pop operations
+# 📚 Python Program to Stack Implementation Using List
+
 
 '''
   A stack is a data structure that follows the Last In, First Out (LIFO) principle.

@@ -6,15 +6,6 @@
 """
 
 def can_vote(age):
-    """
-    Determines if a person is eligible to vote based on their age.
-    
-    Args:
-    age (int): The age of the person.
-    
-    Returns:
-    str: A message indicating whether the person can vote or not.
-    """
     if age >= 18:
         return "You can vote."
     else:

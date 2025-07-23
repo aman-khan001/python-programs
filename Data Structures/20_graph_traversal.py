@@ -1,5 +1,5 @@
-# 📘 Program: Graph Representation and Traversal (BFS & DFS)
-# This program demonstrates how to represent a graph using adjacency list and perform BFS and DFS
+# 📚 Python Program to Graph Representation and Traversal (BFS & DFS)
+
 
 '''
     A graph is a collection of nodes (vertices) connected by edges.
@@ -33,10 +33,15 @@ def dfs(visited, graph, node):
 def bfs(graph, start):
     visited = set()
     queue = deque([start])
+    # Start with the initial node
     while queue:
+        # Dequeue a vertex from the queue
         vertex = queue.popleft()
+        #
         if vertex not in visited:
+            # Mark the vertex as visited and print it
             print(vertex, end=" ")
+            # Add it to the visited set
             visited.add(vertex)
             queue.extend(graph[vertex])
 

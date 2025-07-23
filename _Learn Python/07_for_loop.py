@@ -1,5 +1,5 @@
 # 🐣 Program: Using a For Loop
-# This program demonstrates how to use a for loop to iterate through a range of numbers
+
 
 '''A for loop is used to iterate over a sequence (like a list, tuple, or string) or a range of numbers.'''
 

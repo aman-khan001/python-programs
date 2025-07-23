@@ -1,5 +1,5 @@
 # 📚 Python Program to Determine Character Type
-# This program defines a function to determine the type of a character (uppercase, lowercase, digit, or special character).
+
 
 '''
     The char_type function takes a character as input and returns a string describing its type.

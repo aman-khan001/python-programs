@@ -1,5 +1,5 @@
 # 📚 Python Program: Check Armstrong Number
-# This program defines a function to check if a given integer is an Armstrong number.
+
 
 '''
     An Armstrong number (or narcissistic number) is a number that is equal to the sum of its own digits each raised to the power of the number of digits.

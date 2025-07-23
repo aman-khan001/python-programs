@@ -1,5 +1,5 @@
-# 📘 Program: Calculate Electricity Bill
-# This program defines a function to calculate the electricity bill based on the number of units consumed.
+# 📚 Python Program to Calculate Electricity Bill
+
   
 '''
       The calculate_bill function takes the number of units consumed as input and returns the total bill amount.

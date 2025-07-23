@@ -1,5 +1,5 @@
 # 📚 Python Program: Factors of a Number
-# This program defines a function to print all factors of a given positive integer n using a loop.
+
 
 '''
     The print_factors function takes a positive integer n as input and prints all its factors.

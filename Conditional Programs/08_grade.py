@@ -11,18 +11,21 @@
 '''
 
 def grade(score):
-    """
-    Returns the grade based on the score.
-    """
+    
     if score >= 90:
+        # Return 'A' for scores 90 and above
         return 'A'
     elif score >= 80:
+        # Return 'B' for scores 80 to 89
         return 'B'
     elif score >= 70:
+        # Return 'C' for scores 70 to 79
         return 'C'
     elif score >= 60:
+        # Return 'D' for scores 60 to 69
         return 'D'
     else:
+        # Return 'F' for scores below 60
         return 'F'
     
 # Example usage

@@ -1,5 +1,5 @@
-# 📘 Program: Quick Sort Algorithm
-# This program demonstrates how to sort a list using the quick sort algorithm
+# 📚 Python Program to Quick Sort Algorithm
+
 
 '''
     Quick sort is a highly efficient sorting algorithm and is based on partitioning an array into smaller sub-arrays.

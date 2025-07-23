@@ -1,5 +1,5 @@
 # 📚 Python Program to Determine Number Type
-# This program defines a function to determine if a number is even, odd, positive, negative, or zero.
+
 
 '''
     The number_type function takes an integer as input and returns a string describing its type.

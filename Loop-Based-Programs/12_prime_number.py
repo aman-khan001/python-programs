@@ -1,5 +1,5 @@
 # 📚 Python Program: Prime Number Check
-# This program defines a function to check if a given integer is a prime number using a loop.
+
 
 '''
     The is_prime function takes an integer n as input and returns True if n is a prime number, otherwise False.

@@ -1,5 +1,4 @@
 # 📚 Python Program: Factorial Calculation
-# This program defines a function to calculate the factorial of a non-negative integer using a for loop.
 
 '''
     The factorial function takes a non-negative integer n as input and returns the factorial of n.

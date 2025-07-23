@@ -1,5 +1,5 @@
 # 🐥 Program: Working with Lists
-# This program demonstrates how to create, access, and modify lists in Python
+
 
 '''
     A list is a collection of data/elements.

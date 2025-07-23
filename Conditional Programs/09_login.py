@@ -1,5 +1,5 @@
 # 📚 Python Program: Simple Login System
-# This program implements a simple login system that prompts the user for a username and password.
+
 
 '''
     The login function prompts the user for a username and password,
@@ -22,3 +22,10 @@ def login():
         print("Invalid username or password. Please try again.")
 
 login()
+
+# Example usage
+# Welcome to the login program!
+# Enter your username: admin
+# Enter your password: password123
+# Login successful!
+

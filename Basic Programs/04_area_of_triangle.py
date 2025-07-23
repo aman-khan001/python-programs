@@ -1,5 +1,4 @@
 # 📚 Python Program to Calculate the Area of a Triangle
-# This program defines a function to calculate the area of a triangle.
 
 '''
     The area_of_triangle function takes the base and height of a triangle as inputs
@@ -7,10 +6,6 @@
 '''
 
 def area_of_triangle(base, height):
-    """
-    Calculate the area of a triangle given its base and height.
-    Formula = (1/2) × base × height
-    """
     return 0.5 * base * height
 
 # Example usage

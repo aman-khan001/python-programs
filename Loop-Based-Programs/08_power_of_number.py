@@ -1,5 +1,5 @@
 # 📚 Python Program: Power Calculation
-# This program defines a function to calculate the power of a base number raised to an exponent using a loop.
+
 
 '''
     The power function takes two integers, base and exponent, as input and returns the result of base raised to the power of exponent.

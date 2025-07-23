@@ -1,5 +1,5 @@
-# 📘 Program: Encapsulation in Python (OOP)
-# This program demonstrates how to use private variables and getter/setter methods
+# 🐥 Program: Encapsulation in Python (OOP)
+
 
 '''
   Encapsulation is a fundamental concept in Object-Oriented Programming (OOP) that restricts direct access to an object's attributes and methods.

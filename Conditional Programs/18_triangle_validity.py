@@ -1,5 +1,5 @@
 # 📚 Python Program to Check Triangle Validity
-# This program defines a function to check if three sides can form a valid triangle.
+
 
 '''
     The is_valid_triangle function takes three sides of a triangle as inputs

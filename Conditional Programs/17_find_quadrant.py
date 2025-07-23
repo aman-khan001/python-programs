@@ -1,5 +1,5 @@
 # 📚 Python Program to Find Quadrant of a Point in Cartesian Coordinate System
-# This program defines a function to determine the quadrant of a point in a Cartesian coordinate system.
+
 
 '''
     The find_quadrant function takes the x and y coordinates of a point as input

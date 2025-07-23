@@ -1,5 +1,5 @@
-# 📘 Program: Singly Linked List Implementation
-# This program demonstrates the creation and traversal of a singly linked list
+# 📚 Python Program to Singly Linked List Implementation
+
 
 '''
   A singly linked list is a linear data structure where each element (node) points to the next node.

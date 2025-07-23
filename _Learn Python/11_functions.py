@@ -1,5 +1,4 @@
 # 🐥 Program: Defining and Using Functions
-# This program demonstrates how to create and use functions in Python
 
 ''' 
 A function is a block of reusable code that performs a specific task.

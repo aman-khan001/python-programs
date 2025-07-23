@@ -1,5 +1,4 @@
 # 📚 Python Program to Find Cube of a Number
-# This program defines a function to find the cube of a number.
 
 '''
     The cube function takes a number as input and returns its cube.

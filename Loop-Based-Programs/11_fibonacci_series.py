@@ -1,5 +1,5 @@
 # 📚 Python Program: Fibonacci Series
-# This program defines a function to generate the Fibonacci series up to n terms using a loop.
+
 
 '''
     The fibonacci_series function takes an integer n as input and returns a list containing the first n terms of the Fibonacci series.

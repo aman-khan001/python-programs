@@ -1,5 +1,5 @@
 # 📚 Python Program: Count Number of Digits
-# This program defines a function to count the number of digits in a given integer using a while loop.
+
 
 '''
     The count_digits function takes an integer n as input and returns the number of digits in n.

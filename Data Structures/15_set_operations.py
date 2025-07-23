@@ -1,8 +1,12 @@
-# 📘 Program: Set Operations in Python
-# This program demonstrates basic operations on Python sets
+# 📚 Python Program to Set Operations in Python
+
 
 '''
-  A set is an unordered collection of unique elements.
+  A set is an unordered collection of unique elements. 
+  It supports mathematical set operations like union, intersection, difference, and symmetric difference.
+  Sets are useful for membership testing and eliminating duplicate entries.
+  They are implemented using hash tables, which allows for efficient operations.
+  Common operations include adding, removing elements, and checking membership.
 '''
 
 

@@ -1,5 +1,5 @@
 # 📚 Python Program to Determine BMI Category
-# This program defines a function to determine the Body Mass Index (BMI) category based on the given BMI value.
+
 
 '''
     The bmi_category function takes a BMI value as input and returns the category of the BMI:

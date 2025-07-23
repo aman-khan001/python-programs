@@ -1,5 +1,5 @@
 # 🐣 Program: Conditional Statements in Python
-# This program demonstrates the use of if, elif, and else to control the flow based on conditions
+
 
 ''' Conditional statements allow the program to execute certain blocks of code based on specific conditions.'''
 

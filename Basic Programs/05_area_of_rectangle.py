@@ -1,5 +1,4 @@
 # 📚 Python Program to Calculate the Area of a Rectangle
-# This program defines a function to calculate the area of a rectangle.
 
 '''
     The area_of_rectangle function takes the length and width of a rectangle as inputs

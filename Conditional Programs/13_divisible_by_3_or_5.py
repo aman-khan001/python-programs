@@ -1,5 +1,5 @@
 # 📚 Python Program to Check Divisibility by 3 or 5
-# This program defines a function to check if a number is divisible by 3 or 5.
+
 
 '''
     The divisible_by_3_or_5 function takes an integer as input and returns a string indicating
@@ -7,12 +7,16 @@
 '''
 
 def divisible_by_3_or_5(n):
+        # Check if the number is divisible by both 3 and 5
     if n % 3 == 0 or n % 5 == 0:
         return "Divisible by 3 or 5"
+    # Check if the number is divisible by 3
     elif n % 3 == 0:
         return "Divisible by 3"
+    # Check if the number is divisible by 5
     elif n % 5 == 0:
         return "Divisible by 5"
+    # If the number is not divisible by either 3 or 5
     else:
         return "Not divisible by 3 or 5"
     

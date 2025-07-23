@@ -1,5 +1,5 @@
 # 📚 Python Program to convert Celsius to Fahrenheit
-# This program defines a function to convert temperature from Celsius to Fahrenheit.
+
 
 '''
     The celsius_to_fahrenheit function takes a temperature in Celsius as input

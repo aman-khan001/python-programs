@@ -1,5 +1,5 @@
 # 📚 Python Program: Multiplication Table
-# This program defines a function to generate the multiplication table of a given number using a for loop.
+
 
 '''
     The multiplication_table function takes an integer n as input and prints the multiplication table for n from 1 to 10.

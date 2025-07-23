@@ -1,5 +1,5 @@
-# 📘 Program: Selection Sort Algorithm
-# This program demonstrates how to sort a list using selection sort
+# 📚 Python Program to Selection Sort Algorithm
+
 
 '''
   Selection sort is a simple sorting algorithm that divides the input list into two parts:

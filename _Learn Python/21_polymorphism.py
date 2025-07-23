@@ -1,5 +1,5 @@
-# 📘 Program: Polymorphism in Python (OOP)
-# This program demonstrates polymorphism using method overriding and duck typing
+# 🐥 Program: Polymorphism in Python (OOP)
+
 
 '''
   Polymorphism is a core concept in Object-Oriented Programming (OOP) that allows methods to do different things based on the object it is acting upon.

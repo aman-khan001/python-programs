@@ -1,5 +1,5 @@
 # 📚 Python Program: Reverse a Number
-# This program defines a function to reverse a given integer using a while loop.
+
 
 '''
     The reverse_number function takes an integer n as input and returns the reversed number.

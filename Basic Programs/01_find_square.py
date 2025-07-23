@@ -1,5 +1,4 @@
 # 📘 Program: Find Square of a Number
-# This program defines a function to find the square of a number.
 
 '''
     The square function takes a number as input and returns its square.

@@ -1,5 +1,4 @@
-# 📘 Program: Cycle Detection in Directed Graph using DFS
-# This program detects if there's a cycle in a directed graph using DFS
+# 📚 Python Program to Cycle Detection in Directed Graph using DFS
 
 
 '''
@@ -8,23 +7,31 @@
 
 
 def has_cycle(graph):
+    # Initialize visited and recursion stack
     visited = set()
     rec_stack = set()
 
+    # Helper function for DFS
     def dfs(node):
         visited.add(node)
         rec_stack.add(node)
 
+        # Visit all neighbors
         for neighbor in graph.get(node, []):
+            # If the neighbor is not visited, recurse
             if neighbor not in visited:
                 if dfs(neighbor):
                     return True
+
             elif neighbor in rec_stack:
                 return True
 
+        # Remove the node from recursion stack before returning
         rec_stack.remove(node)
         return False
 
+    # Check each node in the graph
+    # to handle disconnected components
     for node in graph:
         if node not in visited:
             if dfs(node):

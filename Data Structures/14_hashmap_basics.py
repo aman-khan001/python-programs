@@ -1,5 +1,5 @@
-# 📘 Program: Hash Map (Dictionary) Usage in Python
-# This program demonstrates basic operations on a Python dictionary
+# 📚 Python Program to Hash Map (Dictionary) Usage in Python
+
 
 '''
   A hash map (or dictionary) is a data structure that stores key-value pairs.

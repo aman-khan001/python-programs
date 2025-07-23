@@ -1,5 +1,5 @@
 # 📚 Python Program: Palindrome Number Check
-# This program defines a function to check if a given integer is a palindrome using a loop.
+
 
 '''
     The is_palindrome function takes an integer n as input and returns True if n is a palindrome, otherwise False.

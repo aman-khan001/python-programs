@@ -1,5 +1,5 @@
 # 📘 Program: Max Heap Using heapq in Python
-# This program demonstrates how to simulate a max heap using the heapq module
+
 
 '''
     A max heap is a complete binary tree where the value of each node is greater than or equal to the values of its children.

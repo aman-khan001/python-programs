@@ -1,5 +1,5 @@
 # 📚 Python Program to Find the Largest of Three Integers Using Nested If Statements
-# This program defines a function to find the largest of three integers using nested if statements.
+
 
 '''
     The nested_largest function takes three integers as input

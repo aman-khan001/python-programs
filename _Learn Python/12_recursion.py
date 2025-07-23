@@ -1,5 +1,5 @@
-# 📘 Program: Recursive Function Example
-# This program demonstrates how recursion works by calculating factorial of a number
+# 🐥 Program: Recursive Function Example
+
 
 '''
     A recursive function is a function that calls itself to solve smaller instances of the same problem.

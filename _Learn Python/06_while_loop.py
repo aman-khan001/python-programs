@@ -1,5 +1,5 @@
 # 🐣 Program: Using a While Loop
-# This program demonstrates the use of a while loop to print numbers from 1 to 5
+
 
 ''' A while loop repeatedly executes a block of code as long as a specified condition is true.'''
 

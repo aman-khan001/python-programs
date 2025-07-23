@@ -1,5 +1,4 @@
 # 📚 Python Program to Determine Triangle Type
-# This program defines a function to determine the type of triangle based on the lengths of its sides.
 
 '''
     The triangle_type function takes three side lengths as inputs

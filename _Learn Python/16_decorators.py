@@ -1,5 +1,11 @@
-# 📘 Program: Using Decorators in Python
-# This program demonstrates how to create and use a simple decorator
+# 🐥 Program: Using Decorators in Python
+
+
+'''    
+    A decorator is a special type of function that can modify the behavior of another function.
+    It is often used to add functionality to existing functions without modifying their code.
+    Decorators are defined using the @ syntax and can be used to log, authenticate, or modify the output of functions.
+'''
 
 # Defining a decorator function
 def my_decorator(func):

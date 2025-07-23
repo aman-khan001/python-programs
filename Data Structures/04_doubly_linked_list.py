@@ -1,5 +1,4 @@
-# 📘 Program: Doubly Linked List Implementation
-# This program demonstrates how to create and traverse a doubly linked list
+# 📚 Python Program to Doubly Linked List Implementation
 
 '''
   A doubly linked list is a linear data structure where each node contains a reference to both the next and previous nodes.

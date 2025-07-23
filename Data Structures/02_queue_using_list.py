@@ -1,5 +1,5 @@
-# 📘 Program: Queue Implementation Using List
-# This program demonstrates how to use a list as a queue with enqueue/dequeue operations
+# 📚 Python Program to Queue Implementation Using List
+
 
 '''
   A queue is a linear data structure that follows the First In First Out (FIFO) principle.

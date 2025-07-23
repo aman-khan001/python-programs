@@ -1,5 +1,5 @@
 # 🐣 Program: Arithmetic Operations in Python
-# This program demonstrates basic arithmetic operations like addition, subtraction, multiplication, and division
+
 
 ''' Arithmetic operations are used to perform mathematical calculations on numeric values.'''
 

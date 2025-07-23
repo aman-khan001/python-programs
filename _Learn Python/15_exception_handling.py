@@ -1,5 +1,6 @@
-# 📘 Program: Exception Handling in Python
-# This program demonstrates how to handle errors using try-except blocks
+# 🐥 Program: Exception Handling in Python
+
+
 '''
 Exception handling is a mechanism to gracefully handle errors that may occur during program execution.
 It allows the program to continue running even if an error occurs, instead of crashing.
