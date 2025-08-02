@@ -1,6 +1,5 @@
 # 📚 Python Program to Find Intersection of Two Lists Without Duplicates
 
-
 '''
   This program finds the intersection of two lists and returns a new list containing only unique elements.
 '''
